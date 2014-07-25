@@ -194,11 +194,30 @@ $(document).ready(function(){
 });
 
 </script>
+<style> 
+@font-face
+{
+font-family: myFirstFont;
+src: url('fuuon.ttf');
+}
+
+p
+{
+font-family:myFirstFont;
+}
+div
+{
+font-family:myFirstFont;
+font-size:500%;
+}
+
+</style>
+
 </head>
 <body>
 <p>輸入羅馬字生成暴走文字</p>
 Enter Romaji: <input class="field" type="text" /><br />
 List:<form id="list"></form><br />
-List2:<span id="list2"><br />
+List2:<div id="list2"><br /></div>
 </body>
 </html>
