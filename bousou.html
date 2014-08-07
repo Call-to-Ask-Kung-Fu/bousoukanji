@@ -1,8 +1,7 @@
-
+﻿
 <html>
 <head>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs
-/jquery/1.4.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">
 var bousou={
 "a":"亞阿悪愛",
@@ -188,7 +187,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $(".kanjiselect").live("change",function(){
+  $(document).on("change",function(){
    $("#list2").html(showkanji())
   });
 });
